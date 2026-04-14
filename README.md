@@ -16,7 +16,7 @@ This project simulates a wireless network where mobile users move across multipl
 ## Project Structure
 
 ```
-DIP_Project/
+wiresless_project/
 ├── data_generation.py      # Generate synthetic user mobility data
 ├── base_station.py         # Define base stations and assignment logic
 ├── signal_model.py         # Simulate signal strength (RSS) model
@@ -44,7 +44,7 @@ DIP_Project/
 
 1. **Navigate to project directory**:
    ```bash
-   cd DIP_Project
+   cd wiresless_project
    ```
 
 2. **Create a virtual environment (recommended)**:
