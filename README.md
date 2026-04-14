@@ -270,17 +270,20 @@ next_x, next_y = predictor.predict_next_position(recent_positions)
 
 ## Troubleshooting
 
-### Issue: Plots not displaying
+### Plots 
 Ensure matplotlib is properly configured:
 ```python
 import matplotlib
 matplotlib.use('TkAgg')  # or 'Qt5Agg' depending on your system
 ```
+<img width="452" height="464" alt="image" src="https://github.com/user-attachments/assets/2963801b-428b-4ee4-9e04-7ae4f7a6bfcc" />
+<img width="951" height="460" alt="image" src="https://github.com/user-attachments/assets/85e74f72-f8ef-4c62-bf31-4fc2b27be487" />
+<img width="952" height="459" alt="image" src="https://github.com/user-attachments/assets/6c466dad-f1d7-404b-a05f-c0527a857e1d" />
+<img width="955" height="467" alt="image" src="https://github.com/user-attachments/assets/6173ec83-96f8-49a2-a887-48375c1e6421" />
+<img width="836" height="440" alt="image" src="https://github.com/user-attachments/assets/614f88a3-4340-4dbc-b04f-031b56122a21" />
 
-### Issue: ML training is slow
-- The Linear Regression model should train almost instantly
-- If slow, check your scikit-learn version
-- Reduce sequence_length parameter if needed
+
+
 
 ## Research Background
 
