@@ -268,10 +268,8 @@ next_x, next_y = predictor.predict_next_position(recent_positions)
 | scikit-learn | ≥0.24.0 | Machine learning algorithms |
 | scipy | ≥1.7.0 | Scientific computing |
 
-## Troubleshooting
 
 ### Plots 
-Ensure matplotlib is properly configured:
 ```python
 import matplotlib
 matplotlib.use('TkAgg')  # or 'Qt5Agg' depending on your system
